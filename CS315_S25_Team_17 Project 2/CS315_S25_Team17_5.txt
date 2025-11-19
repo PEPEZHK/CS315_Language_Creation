@@ -1,0 +1,18 @@
+begin
+        int a;
+   
+  display("x: ");
+
+  x= read();
+  y = read();
+  z = read();
+  while( x== 0 || y == 0 || z==0 ) {
+    display("Numbers you entered should have non-zero values. Please enter again! \n x: ");
+    x= read();
+    display("y: ");
+    y = read();
+    display("z: ");
+    z = read();
+  }
+  display( x * y * z);
+end

@@ -1,0 +1,11 @@
+begin
+//afgewqgqweg
+/*qw
+
+
+
+qwgqregqerqbrebqqrenqrn // error because there is no closing condition for the comment block
+int a[] = new int[5];
+int a[5] ;
+int a[5] = {1.4,1,2,5,0.75};
+end 

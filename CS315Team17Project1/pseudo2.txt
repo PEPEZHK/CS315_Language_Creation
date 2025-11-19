@@ -1,0 +1,41 @@
+/* 
+This is the second program that was given in the pseudocode
+*/
+float foo(float p, float q) {
+    display("Function Name: foo");
+    display("Parameter 1 (p): ");
+    display(p);
+    display("Parameter 2 (q): ");
+    display(q);
+
+    if (p > q) {
+        return p;
+    } else {
+        return q;
+    }
+}
+
+/* Main Execution */
+int main() {
+    float aList[4] = {3.15, 7, 0.03, -1.7};
+    float bList[3] = {9, -1.2, +1.2};
+
+    for (int i = 0; i < 4; i = i + 1) {  
+        for (int j = 0; j < 3; j = j + 1) {  
+            float a = aList[i];
+            float b = bList[j];
+            float c = foo(a, b);
+
+            display("Values:");
+            display("a = ");
+            display(a);
+            display("b = ");
+            display(b);
+            display("c (which is the maximum of a and b) = ");
+            display(c);
+        }
+    }
+    
+    return 0;
+}
+

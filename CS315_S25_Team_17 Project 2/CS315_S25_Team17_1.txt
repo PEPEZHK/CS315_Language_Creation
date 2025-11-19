@@ -1,0 +1,27 @@
+begin
+/* 
+This is program 1
+*/
+int num = 25;
+bool isEven = false;
+
+// Func checking a number is even
+bool checkEven(int x) {
+    return (x % 2 == 0);
+}
+
+// Main Execution
+while (num > 0) {
+    isEven = checkEven(num);
+    
+    if (isEven) {
+        display("Even number detected.");
+    } else {
+        display("Odd number detected.");
+    }
+    display("new num: " );
+    display(num - 1);
+    num = num - 1;
+
+}
+end
