@@ -46,7 +46,7 @@ The language syntax and rules are documented in detail in the included PDF repor
 - Block: `/* comment */`
 
 ---
-
+```text
 ## 📂 Project Structure
 ROOT/
 ├── CS315Team17Project1/                     # Project 1 — Lexical Analyzer
