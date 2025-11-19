@@ -48,3 +48,33 @@ The language syntax and rules are documented in detail in the included PDF repor
 ---
 
 ## 📂 Project Structure
+ROOT/
+├── 📁 CS315Team17Project1/                 # Project 1 — Lexical Analyzer
+│   ├── CS315Project1ReportTeam17.pdf       # Report
+│   ├── Makefile
+│   ├── noscript.l                          # Lex/Flex spec
+│   ├── test1
+│   ├── test2
+│   ├── test3
+│   ├── pseudo1
+│   ├── pseudo2
+│   └── .DS_Store
+
+├── 📁 CS315_S25_Team_17_Project_2/
+│   ├── CS315_S25_Team_17_Project_2_Report.pdf
+│   ├── CS315_S25_Team17.l                  # Lex spec
+│   ├── CS315_S25_Team17.y                  # Yacc/Bison grammar
+│   ├── CS315_S25_Team17_1
+│   ├── CS315_S25_Team17_1_syntax_error
+│   ├── CS315_S25_Team17_2
+│   ├── CS315_S25_Team17_2_syntax_error
+│   ├── CS315_S25_Team17_3
+│   ├── CS315_S25_Team17_3_syntax_error
+│   ├── CS315_S25_Team17_4
+│   ├── CS315_S25_Team17_4_syntax_error
+│   ├── CS315_S25_Team17_5
+│   ├── CS315_S25_Team17_5_syntax_error
+│   ├── Makefile
+│   └── readme
+
+└── 📄 README.md
